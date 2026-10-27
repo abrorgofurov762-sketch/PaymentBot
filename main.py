@@ -6,7 +6,6 @@ from db_bot import *
 from aiogram.dispatcher import FSMContext
 from btn import *
 from states import BotStates
-API_TOKEN = '7357038647:AAHNXsX4gg1oaggg7Yj41zOWIzGB7lTCiNg'
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 # Configure logging
 logging.basicConfig(level=logging.INFO)
