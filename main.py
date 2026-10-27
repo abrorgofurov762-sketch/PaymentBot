@@ -1,3 +1,11 @@
+import os
+from aiogram import Bot
+
+# Render'dagi Environment bo'limiga kiritgan nomingiz bilan bir xil bo'lishi kerak
+API_TOKEN = os.getenv('API_TOKEN')
+
+bot = Bot(token=API_TOKEN, parse_mode='HTML')
+
 import logging
 
 import states
